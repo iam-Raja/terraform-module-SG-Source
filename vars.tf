@@ -2,9 +2,8 @@ variable "project_name" {
     type=string
 }
 
-variable "Environment" {
+variable "environment" {
     type = string
-    default = "dev"
   
 }
 
